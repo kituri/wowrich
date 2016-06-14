@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dip"
+    android:paddingLeft="12dip"
+    android:paddingRight="12dip">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/ImageIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:background="@drawable/icon_equip_01"></ImageView>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutTextHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="14814-9182"
+                android:textColor="#ffffffff"
+                android:textSize="18dip"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/TextViewAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ImageButtonHome"
+                android:layout_gravity="left"
+                android:text="12471847148178417847148974114"
+                android:textColor="#99ffffff"
+                android:textSize="14dip"></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextViewCounts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="　X　1"
+            android:textColor="#ffffff00"
+            android:textSize="20dip"
+            ></TextView>
+    </LinearLayout>
+
+
+</RelativeLayout>  

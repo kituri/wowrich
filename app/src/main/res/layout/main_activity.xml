@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_main"
+        />
+
+    <RelativeLayout
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_item"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="32dp"
+            android:src="@drawable/item_even01"
+            android:layout_width="64dp"
+            android:layout_height="64dp" />
+
+        <ImageView
+            android:id="@+id/iv_go"
+            android:src="@drawable/go_even01"
+            android:layout_centerHorizontal="true"
+            android:layout_width="64dp"
+            android:layout_height="64dp" />
+
+        <ImageView
+            android:id="@+id/iv_equip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="32dp"
+            android:src="@drawable/icon_equip_00"
+            android:layout_width="64dp"
+            android:layout_height="64dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

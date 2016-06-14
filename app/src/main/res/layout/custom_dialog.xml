@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/dig_base" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:orientation="vertical" android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:layout_margin="10dip">
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:gravity="center"
+			android:text="185901859185915" android:textSize="20dip"
+			android:textStyle="bold" android:id="@+id/DigTitle" android:layout_marginTop="10dip"></TextView>
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginLeft="15dip" android:layout_marginRight="15dip" android:layout_marginTop="5dip" android:orientation="horizontal" android:layout_gravity="center" android:layout_marginBottom="5dip">
+			<RelativeLayout android:id="@+id/RelativeLayout01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dip" android:layout_marginBottom="30dip" android:layout_marginTop="30dip">
+				<ImageView android:background="@drawable/city01"
+					android:layout_width="48dip" android:id="@+id/DigIcon" android:layout_height="48dip"></ImageView>
+			</RelativeLayout>
+			<TextView android:layout_height="fill_parent"
+				android:id="@+id/DigMessage"
+				android:layout_width="fill_parent" android:gravity="left" android:text="15189510185-185-185-185185185109518561851895981659816591695169516514517851907510987518715801458159815918591591590815511515151527" android:textSize="15dip"></TextView>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/LinearLayout03"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_margin="15dip">
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:background="@drawable/button_attack_xml"
+				android:id="@+id/ButtonLeft" android:layout_marginRight="5dip"></ImageButton>
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:background="@drawable/button_pay_xml"
+				android:id="@+id/ButtonRight" android:layout_marginLeft="5dip"></ImageButton>
+		</LinearLayout>
+		<RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/RelativeLayoutCenter" android:layout_marginBottom="15dip">
+			<ImageButton android:layout_height="wrap_content"
+				android:background="@drawable/button_ok_xml" android:id="@+id/ButtonCenter"
+				android:layout_width="wrap_content" android:layout_centerHorizontal="true"></ImageButton>
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

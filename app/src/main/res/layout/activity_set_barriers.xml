@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+
+
+
+<ImageView android:id="@+id/ImageViewbarriers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:scaleType="matrix"></ImageView>
+
+
+
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:textSize="20dip" android:text="5123652626q3263266q26q2" android:layout_gravity="center" android:id="@+id/TextViewMapView" android:textColor="#ffffffff"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5123652626q3263266q26q2" android:id="@+id/TextViewMapViewAbout" android:textSize="18dip" android:layout_margin="10dip"></TextView>
+</LinearLayout>

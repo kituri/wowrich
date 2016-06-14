@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/ListViewEquip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></ListView>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RelativeLayout01"
+        android:gravity="center"
+        android:text="=====当前装备物品======"
+        android:textSize="20dip"
+        android:visibility="gone"></TextView>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dig_base_s"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/EquipIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:background="@drawable/icon_equip_01"></ImageView>
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutTextHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Equip_Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="未装备武器"
+                    android:textColor="#ffffffff"
+                    android:textSize="18dip"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/EquipAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/ImageButtonHome"
+                    android:layout_gravity="left"
+                    android:text="暂无简介。"
+                    android:textColor="#99ffffff"
+                    android:textSize="14dip"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

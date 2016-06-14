@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo_bg"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/dig_base_l"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/ImageButtonCaidan01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_caidan01_xml"></ImageButton>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/ImageButtonCaidan02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_caidan02_xml"></ImageButton>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/ImageButtonCaidan03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_caidan03_xml"></ImageButton>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/ImageButtonCaidan04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_caidan04_xml"></ImageButton>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginLeft="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:gravity="center"
+            android:src="@drawable/icon"
+            android:id="@+id/iv_author"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/icon"
+            android:text="@string/info"
+            android:id="@+id/tv_author"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
